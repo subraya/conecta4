@@ -1,0 +1,66 @@
+
+
+
+.game-area {
+  width: 80%;
+}
+
+.board {
+  background-color: cornflowerblue;
+  border: 2px solid darkgrey;
+  width: 100%;
+  padding: 20px 0;
+}
+
+tr {
+  text-align: center;
+  //padding: 10px 0;
+  //display: block;
+}
+
+td {
+  display: inline-block;
+}
+
+.square {
+  width: calc((100% / sibling-count()) - 1%);
+  //padding: 5px;
+}
+
+.piece {
+  padding: 45%; //max(20px, 100%);
+  border-radius: 100%;
+  border: 10px solid cornflowerblue;
+  background-color: silver;
+  width: 0px;
+  
+  &.player1 {
+  background-color: red;
+  }
+
+  &.player2 {
+    background-color: yellow;
+  }
+
+  &.available {
+    background-color: white;
+    opacity: 0.8;
+  }
+}
+
+.support {
+  margin-top: -2px;
+  background-color: #6495ed;
+  height: 20px;
+  width: 10%;
+  border: 2px solid darkgrey;
+  border-top: none;
+
+  &.support-left {
+    float: left;
+  }
+
+  &.support-right {
+    float: right;
+  }
+}

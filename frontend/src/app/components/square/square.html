@@ -1,0 +1,7 @@
+<td class="square">
+    <div class="piece" 
+        [class.player1]="isPlayer1()" [class.player2]="isPlayer2()" [class.dimmed]="dimmed"
+        [class.available]="isAvailable()" [class.human-clickable]="isHumanClickable()"
+        (click)="playHumanMove()">
+    </div>
+</td>

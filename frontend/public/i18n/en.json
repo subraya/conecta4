@@ -1,0 +1,36 @@
+{
+    "home": {
+        "buttons": {
+            "options": "Options",
+            "play": "Play",
+            "simulate": "Simulate game"
+        }
+    },
+    "game": {
+        "buttons": {
+            "back": "Back",
+            "newGame": "New Game",
+            "simulate": "Start simulation"
+        },
+        "currentPlayer": "Current Turn: {{playerName}}",
+        "result": {
+            "draw": "DRAW",
+            "win": "{{playerName}} wins!"
+        }
+    },
+    "options": {
+        "buttons": {
+            "back": "Back"
+        },
+        "name": "Name",
+        "player1": "Player 1",
+        "player2": "Player 2",
+        "type": "Type"
+    },
+    "player": {
+        "types": {
+            "cpu": "CPU",
+            "human": "Human"
+        }
+    }
+}

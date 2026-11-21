@@ -1,0 +1,11 @@
+backlog
+boot
+discards/
+*/**/__pycache__/
+
+backend/config/dev.py
+backend/config/test.py
+backend/sandbox.py
+backend/tmp/
+
+frontend/.vscode/

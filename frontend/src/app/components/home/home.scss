@@ -1,0 +1,19 @@
+#menu {
+    text-align: center;
+    padding-top: calc((100vh - 123px) / 2);
+
+}
+
+.menu-btn {
+    padding: 5px;
+
+    button {
+        cursor: pointer;
+        width: 120px;
+        border: 1px;
+        font-weight: bold;
+        padding: 8px;
+        color: slategray;
+        border-radius: 12px;
+    }
+}

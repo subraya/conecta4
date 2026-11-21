@@ -1,0 +1,36 @@
+{
+    "home": {
+        "buttons": {
+            "options": "Opciones",
+            "play": "Jugar",
+            "simulate": "Simular partida"
+        }
+    },
+    "game": {
+        "buttons": {
+            "back": "Volver",
+            "newGame": "Nueva partida",
+            "simulate": "Empezar simulación"
+        },
+        "currentPlayer": "Turno de: {{playerName}}",
+        "result": {
+            "draw": "EMPATE",
+            "win": "¡Victoria para {{playerName}}!"
+        }
+    },
+    "options": {
+        "buttons": {
+            "back": "Volver"
+        },
+        "name": "Nombre",
+        "player1": "Jugador 1",
+        "player2": "Jugador 2",
+        "type": "Tipo"
+    },
+    "player": {
+        "types": {
+            "cpu": "CPU",
+            "human": "Humano"
+        }
+    }
+}

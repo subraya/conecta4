@@ -1,0 +1,13 @@
+# flask api
+Flask
+flask-socketio
+flask-cors
+
+# fast api
+fastapi
+uvicorn
+
+# db
+sqlalchemy
+sqlalchemy.orm
+psycopg2

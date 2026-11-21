@@ -1,0 +1,54 @@
+:host {
+  displaY: inline-flex;
+}
+
+.board-area {
+  width: 780px;
+}
+.menu-area {
+  width: 350px;
+  float: left;
+  //background-color: grey;
+
+  padding: 5px;
+
+  button {
+      cursor: pointer;
+      width: 120px;
+      border: 1px;
+      font-weight: bold;
+      padding: 8px;
+      color: slategray;
+      border-radius: 12px;
+  }
+}
+
+.board {
+  background-color: cornflowerblue;
+  border: 2px solid darkgrey;
+  width: 100%;
+  padding: 20px 0;
+}
+
+tr {
+  text-align: center;
+  //padding: 10px 0;
+  //display: block;
+}
+
+.support {
+  margin-top: -2px;
+  background-color: #6495ed;
+  height: 20px;
+  width: 10%;
+  border: 2px solid darkgrey;
+  border-top: none;
+
+  &.support-left {
+    float: left;
+  }
+
+  &.support-right {
+    float: right;
+  }
+}

@@ -1,0 +1,36 @@
+:host {
+    width: 800px;
+    display: block;
+}
+
+#lang-form {
+    padding: 20px;
+}
+
+#players-form {
+    width: 100%;
+    padding: 20px;
+
+    .player-row {
+        display:flex;
+
+        .col {
+            width: 25%;
+            padding: 5px;
+        }
+    }
+}
+
+#footer {
+    float: right;
+
+    button {
+        cursor: pointer;
+        width: 120px;
+        border: 1px;
+        font-weight: bold;
+        padding: 8px;
+        color: slategray;
+        border-radius: 12px;
+    }
+}

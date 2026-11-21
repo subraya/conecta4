@@ -1,0 +1,23 @@
+<div class="menu-area">
+    <button (click)="goBack()" translate>game.buttons.back</button>
+    @if(gameMode=="play"){
+        <button (click)="newGame()" translate>game.buttons.newGame</button>
+    } @else {
+        <button (click)="simulate()" translate>game.buttons.simulate</button>
+    }
+    
+    <h3 translate>{{getGameStatusText()}}</h3>
+</div>
+<div class="board-area">
+  <table class="board">
+    @for (row of dummyRows; track row; let r = $index) {
+        <tr>
+            @for (col of dummyCols; track col; let c = $index) {
+                <c4-square row="{{numRows - 1 - r}}", col="{{c}}" (playerMovedEvent)="playerMoved()"></c4-square>
+            }
+        </tr>
+    }
+  </table>
+  <div class="support support-left"></div>
+  <div class="support support-right"></div>
+</div>
